@@ -1,0 +1,18 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1717143213312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1717143213312,
+            "name": "Commit-0",
+            "content": "# **GrowthEx2Tune: An Intelligent Buffer Tuning Method for Decoupled Storage-Compute Database Clusters**\n\n## **Code Structure**\n- **test_model:** The results of the tuning process will be placed here after tuning.\n- **tune:** Includes the training code necessary for the tuning process.\n- **my_algorithm:** Houses the agent, deep reinforcement learning (DRL) algorithms, and model code.\n- **maEnv:** Provides ancillary code supportive of the decoupled storage-compute database architecture.\n- **main.py:** The primary script used to initiate the tuning process.\n- **globalValue.py:** Configuration file for setting up the GrowthEx2Tune.\n\n## **Environment Setup**\n- **Operating System:** Ubuntu 18.04.6\n- **Python Version:** 3.7.9\n- **Additional Libraries:** Parl 1.3.1\n- **Dependencies:** A detailed list of required Python packages is available in `requirements.txt`.\n\n## **Running the Tool**\nTo initiate the tuning process, ensure that the status monitor, action receiver, and executor are correctly implemented and operational within your database. Start the process using the command below:\n\n```bash\npython main.py\n```\n\n## **Other Notes**\n- **EKC Rules:** You can customise your own labels and rules in \n`maEnv/datautils.py/status_to_labels` and `maEnv/datautils.py/node_labels_to_action_trend`.\n- **Hyperparameters:** In order to get a good effect of tuning, you should you should adjust the hyperparameters in `tune/train_wxc.py` appropriately.\n"
+        }
+    ]
+}

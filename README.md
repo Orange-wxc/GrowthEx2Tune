@@ -7,7 +7,6 @@
 - **maEnv:** Provides ancillary code supportive of the decoupled storage-compute database architecture.
 - **main.py:** The primary script used to initiate the tuning process.
 - **globalValue.py:** Configuration file for setting up the GrowthEx2Tune.
-- **data:** Data for sysbench and tpcc-mysql.
 
 ## **Environment Setup**
 - **Operating System:** Ubuntu 18.04.6
